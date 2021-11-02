@@ -1,0 +1,318 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+/* body {
+    background-color: #f5f5f5;
+} */
+.btn-danger {
+    background-color: #cc0303;
+    font-weight: 600;
+}
+.btn-outline-danger {
+    font-weight: 600;
+}
+.boton-hablar-ventas:hover{
+      background-color: #cc0303!important;
+  color:#fff;
+}
+  
+/* top escritorio */
+.header-home {
+    margin-top: 6rem;
+}
+.header-home h1 {
+    font-size: 4.5rem;
+    color: #cc0303;
+    font-weight: bold;
+}
+.header-home p {
+    color: #222;
+    font-size: 1.3rem;
+}
+.seg-scroll-home {
+    background-color: #fafafa;
+    border-radius: 14px;
+    padding: 3rem;
+}
+.titulo-contador-home h3 {
+    color: #cc0303;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+.numeros-contador-home {
+    text-align: center;
+    border-right: 1px solid #cc0303;
+}
+.numeros-contador-home:last-child {
+    border: none;
+}
+.numeros-contador-home h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.numeros-contador-home p {
+    font-size: 0.8rem;
+}
+.productos-home {
+    background-color: #fafafa;
+    border-radius: 14px;
+    padding: 3rem;
+    text-align: center;
+}
+.subtitulos-home h2 {
+    padding-top: 2rem;
+    color: #cc0303;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.subtitulos-home p {
+    font-size: 1.3rem;
+}
+.productos-btn-home a {
+    font-size: 0.9rem;
+}
+.carousel-indicators .active {
+    background-color: #cc0303 !important;
+}
+.carousel-indicators [data-bs-target] {
+    border: 1px solid #ccc !important;
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.opciones-sistema-home {
+    max-height: 700px;
+}
+
+.card-opciones-sistema {
+    position: absolute;
+    top: 1720px;
+    right: 13%;
+    width: 300px;
+    text-align: left;
+    /* background-color: green; */
+}
+.card-opciones-sistema:nth-last-child(1) {
+    position: absolute;
+    top: 2150px;
+    /* background-color: #cc0303; */
+    right: 68%;
+    width: 300px;
+    text-align: left;
+}
+.card-opciones-sistema:nth-last-child(2) {
+    position: absolute;
+    top: 2000px;
+    right: 10%;
+    width: 300px;
+    text-align: left;
+    /* background-color: pink; */
+}
+.card-opciones-sistema:nth-last-child(3) {
+    position: absolute;
+    top: 1820px;
+    right: 73%;
+    width: 300px;
+    text-align: left;
+}
+
+.card-opciones-sistema p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background-color: #cc0303;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.card-opciones-sistema h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222;
+}
+.card-opciones-sistema span {
+    color: #a5a5a5;
+    font-size: 0.8rem;
+}
+.texto-opciones-sistema {
+    background-color: #fff;
+    padding: 1rem;
+}
+.subtitulo-social-proof h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #cc0303;
+}
+.subtitulo-recursos-home h2 {
+    color: #cc0303;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.cards-webinars span {
+    background-color: #cc0303;
+    color: #fff;
+    padding: 0.2rem;
+}
+.cards-webinars h5 {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #222;
+}
+.cards-webinars a {
+    bottom: 15px;
+    position: absolute;
+    color: #cc0303;
+}
+.contacto-home {
+    background-color: #fafafa;
+    border-radius: 14px;
+    padding: 1rem;
+}
+.contacto-home h2 {
+    color: #cc0303;
+}
+.formulario-contacto-home h2 {
+    color: #222;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.formulario-contacto-home h2 b {
+    color: #cc0303;
+}
+
+@media (min-width: 993px) {
+    .carousel-top-home {
+        display: none;
+    }
+    .carousel-productos-home {
+        display: none;
+    }
+    /* .reglas-mobile-home {
+        display: none;
+    } */
+    .carousel-hoteles-home {
+        display: none;
+    }
+    .carousel-social-proof {
+        height: 180px;
+    }
+    .carousel-webinars {
+        display: none !important;
+    }
+    .imagen-contacto-m {
+        display: none;
+    }
+    .carousel-testimonials{
+        height: 180px;
+    }
+    .contacto-home{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .btn-danger {
+        font-size: 0.7rem !important;
+    }
+    .btn-outline-danger {
+        font-size: 0.7rem !important;
+    }
+    .header-home h1 {
+        font-size: 3.4rem;
+    }
+    .seg-scroll-home {
+        display: none;
+    }
+    .titulo-contador-home h3 {
+        text-align: center;
+    }
+    .numeros-contador-home {
+        text-align: center;
+        border-right: none;
+        padding: 2rem;
+    }
+    .numeros-contador-home p {
+        border-bottom: 1px solid #cc0303;
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    .productos-btn-home {
+        display: none !important;
+    }
+    .card-sistema-mobile p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        background-color: #cc0303;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .card-sistema-mobile h2{
+        margin-top: 1rem;
+    }
+    .card-sistema-mobile span{
+        color: #a5a5a5;
+    }
+    .card-sistema-mobile {
+        border-bottom: 1px solid #cc0303;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .opciones-sistema-home {
+        display: none !important;
+    }
+    .carousel-hoteles-d {
+        display: none;
+    }
+    .carousel-social-proof {
+        height: 300px;
+    }
+    .subtitulo-recursos-home h2 {
+        text-align: center;
+    }
+    .carousel-hoteles-home img{
+        margin: 0 auto;
+        margin-top: 1.1rem;
+    }
+    .cards-webinars {
+        display: none !important;
+    }
+    .carousel-webinars span {
+        background-color: #cc0303;
+        color: #fff;
+        padding: 0.2rem;
+    }
+    .carousel-webinars h5 {
+        margin-top: 2rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #222;
+    }
+    .carousel-webinars a {
+        bottom: 15px;
+        position: absolute;
+        color: #cc0303;
+    }
+    .imagen-contacto-d {
+        display: none;
+    }
+    .carousel-testimonials{
+        height: 400px!important;
+    }
+    .contacto-home{
+        width: 100%;
+    }
+}
